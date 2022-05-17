@@ -1,0 +1,92 @@
+.bg-logoOrange {
+  background-color: #d6893d !important;
+}
+.bg-logoBlue {
+  background-color: #167cc1;
+}
+.bg-logoAccent {
+  background-color: #3698ba;
+}
+.bg-palette1 {
+  background-color: #dfe0df;
+}
+.bg-palette2 {
+  background-color: #e6f4f1;
+}
+
+.help-people {
+}
+.help-people img {
+  aspect-ratio: 3 / 2;
+  max-height: 30vh;
+}
+.newsCol {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.seeAccounts .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: #212529 !important;
+}
+
+
+@media (min-width: 576px) {
+  .help-people img {
+    aspect-ratio: 3 / 2;
+    max-height: 50vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .help-people img {
+    aspect-ratio: 3 / 2;
+    max-height: 60vh;
+  }
+  .newsCol {
+      grid-template-columns: 1fr 1fr;
+  }
+  .newsCol > div {
+    padding: 0 1rem 0 1rem;
+  }
+  .newsCol > div:first-of-type {
+    padding: 0 1rem 0 0;
+  }
+  .newsCol > div:last-of-type {
+    padding: 0 0 0 0;
+  }
+  .newsCol .card {
+    max-width: 330px;
+    width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .newsCol {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  .newsCol > div {
+    padding: unset;
+  }
+  .newsCol > div:first-of-type {
+    padding: unset;
+  }
+  .newsCol > div:last-of-type {
+    padding: unset;
+  }
+  .newsCol .card {
+    max-width: 330px;
+    width: 100%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
